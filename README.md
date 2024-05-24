@@ -42,7 +42,7 @@ The accuracy of the 6 models I ran are as follows:
 * 1st Optimization model: 72.7%
 * 2nd Optimization model: 72.6%
 * 3rd Optimization model: 72.7%
-* 4th Optimization model: 72.9%
+* 4th Optimization model: 72.9% - this is the model I chose as it has the best accuracy.
 * 5th Optimization model: 72.6%
 
 
@@ -64,7 +64,8 @@ My Fourth attempt to optimize the initial model entailed:
 * The addition of a third Hidden Layer
 * Changed the activation function of first hidden layers to Tanh (2nd and 3rd are relu)
 * Increasing the number of neurons in all hidden layers
-* Increase Epochs to 250
+* Increase Epochs to 250 \
+    **This is the model I chose as it has the best accuracy.**
 
 My Fifth attempt to optimize the initial model entailed:
 * The addition of a third Hidden Layer
