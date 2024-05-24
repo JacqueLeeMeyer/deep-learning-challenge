@@ -29,10 +29,13 @@ Data Preprocessing:
 
 
 The final model consists of 4 Layers:
-* The first hidden layer contains 150 neurons, with a __ activation function
-* The second hidden layer contains 100 neurons, with a __ activation function
-* The third hidden layer contains 50 neurons, with a __ activation function
-* The output layer contains 1 neuron, with a Sigmoid activation function - for binary classification.
+* The first hidden layer contains 150 neurons, with a tanh activation function
+* The second hidden layer contains 100 neurons, with a relu activation function
+* The third hidden layer contains 50 neurons, with a relu activation function
+* The output layer contains 1 neuron, with a Sigmoid activation function - for binary classification
+* The number of Epochs is 250
+
+<img width="291" alt="image" src="https://github.com/JacqueLeeMeyer/deep-learning-challenge/assets/149394665/300792e2-d656-46e2-a6e8-60e1256305ff">
 
 
 I was not able to achieve the target model accuracy of 75%. 
